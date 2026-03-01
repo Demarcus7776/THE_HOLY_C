@@ -1,22 +1,21 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int	pointdat(int *ptr, int size)
+void	increment(int *arr, int size)
 {
-	int arr[size];
-	*ptr = arr[size];
+	int *p = arr;
 
-	while(ptr);
+	while (p < arr + size)
 	{
-		if (arr == '\0')
-			return (*ptr);
-		*(ptr + 1);
+		printf("%d\n", *p);
+		p++;
 	}
+
 }
 
 int main ()
 {
 	int arr[]={1,2,3,4,5};
 	
-	printf("%d", pointdat(arr,5));
+	 increment(arr,5);
 }
