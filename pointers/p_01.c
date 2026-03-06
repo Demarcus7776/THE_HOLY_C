@@ -6,9 +6,7 @@ void	swampizzo(int *p, int *a)
 
 	tmp = *a;
 	*a = *p;
-	*p = tmp;
-	
-	printf("%d %d", *a,*p);
+	*p = tmp;	
 }
 
 int main()
@@ -17,4 +15,6 @@ int main()
 	int b = 6;
 
 	swampizzo(&a,&b);
+
+	printf("%d %d", a , b);
 }
