@@ -1,11 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int *ft_dub(int *arr, int len, int maxlen)
-{
-	int *arr = malloc(maxlen * sizeof(int));
-}
-
 int main ()
 {
 	int *arr = malloc(sizeof(int) * 5);
