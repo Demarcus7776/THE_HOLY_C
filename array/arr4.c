@@ -31,6 +31,6 @@ int main ()
 	}
 	else
 	{
-	
+		printf("FAAHHHHH");
 	}
 }
